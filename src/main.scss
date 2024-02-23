@@ -1,0 +1,77 @@
+$blackground: rgb(15, 15, 15);
+$whiteground: rgb(247, 247, 247);
+$white: rgb(241, 241, 241);
+$black: rgb(17, 17, 17);
+$resp_limiter: 920px;
+
+*::selection {
+    background: $whiteground;
+    color: $black;
+}
+
+@font-face {
+    font-family: "StussyScript-Regular";
+    src: url("./fonts/StussyScript-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "LowerResolution";
+    src: url("./fonts/LowerResolution.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Nexa-ExtraLight";
+    src: url("./fonts/Nexa-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Nexa-Heavy";
+    src: url("./fonts/Nexa-Heavy.ttf") format("truetype");
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: $black;
+    color: $white;
+
+    .title-ft {
+        font-family: "StussyScript-Regular";
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .text-ft {
+        font-family: "LowerResolution";
+    }
+
+    .text-bs {
+        font-family: "Courier New", Courier, sans-serif;
+    }
+
+    .title-sp {
+        font-family: "Nexa-Heavy";
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .text-sp {
+        font-family: "Nexa-ExtraLight";
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    #root {
+        width: 100%;
+        height: 100%;
+    }
+}

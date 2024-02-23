@@ -1,0 +1,45 @@
+{
+    "gmp_visual": {
+        "url": "pdkkD6bVPks",
+        "name_en": "Visual for Gentle Mates players",
+        "name_fr": "Visuel pour les joueurs de Gentle Mates",
+        "desc_en": [
+            "VFX & Color correction made in After Effects",
+            "SFX in Premiere Pro",
+            "*Concept"
+        ],
+        "desc_fr": [
+            "VFX et correction des couleurs réalisés dans After Effects",
+            "SFX dans Premiere Pro",
+            "*Concept"
+        ]
+    },
+    "hatevernal_visual": {
+        "url": "yBjzYmGIBJ4",
+        "name_en": "Twitch Intro for Hatevernal",
+        "name_fr": "Intro Twitch pour Hatevernal",
+        "desc_en": [
+            "VFX & Color correction made in After Effects",
+            "*Concept"
+        ],
+        "desc_fr": [
+            "VFX et correction des couleurs réalisés dans After Effects",
+            "*Concept"
+        ]
+    }, 
+    "zola_visual": {
+        "url": "f8F7FSgZRX0",
+        "name_en": "Teaser visual for Zola",
+        "name_fr": "Teaser visuel pour Zola",
+        "desc_en": [
+            "VFX & Color correction made in After Effects",
+            "SFX in Premiere Pro",
+            "*Concept"
+        ],
+        "desc_fr": [
+            "VFX et correction des couleurs réalisés dans After Effects",
+            "SFX dans Premiere Pro",
+            "*Concept"
+        ]
+    }
+}

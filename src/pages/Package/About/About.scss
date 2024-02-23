@@ -1,0 +1,46 @@
+
+@import "../../../main.scss";
+
+#about-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+    #about-title {
+        text-align: center;
+        font-size: 2em;
+    
+        @media (max-width: $resp_limiter) {
+            position: absolute;
+            top: 10px;
+            left: 30px;
+        } 
+    }
+
+    #about-text-container {
+        width: 50%;
+        text-align: center;
+        text-wrap: balance;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        @media (max-width: $resp_limiter) {
+            margin-top: 60px;
+            width: 80%;
+        }
+        
+        .about-text {
+            font-size: 17px;
+
+            @media (max-width: $resp_limiter) {
+                font-size: 9px;
+                font-weight: bold;
+            }
+        }
+    }
+}

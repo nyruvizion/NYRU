@@ -1,0 +1,61 @@
+@import "../../main.scss";
+
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    gap: 5px;
+
+    #footer-top-section-container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 10px;
+
+        #footer-top-section-contact-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 200px;
+
+            .footer-top-section-contact-cursor {
+                width: 25px;
+            }
+
+            .one-c {
+                transform: rotate(90deg);
+            }
+            .two-c {
+                transform: rotate(-90deg) scaleX(-1);
+            }
+        }
+    }
+
+    #footer-bottom-section-container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        .footer-bottom-section-link {
+            font-size: 18px;
+            letter-spacing: 1.2px;
+            color: white;
+            cursor: pointer;
+
+            @media (max-width: $resp_limiter) {
+                font-size: 15px;
+            }
+        }
+    }
+}

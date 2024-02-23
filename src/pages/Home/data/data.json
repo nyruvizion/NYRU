@@ -1,0 +1,19 @@
+{
+    "ptitle": {"fr": "Accueil", "en": "Home"},
+    "htitle": "NYRU",
+    "trad_vfx": {"en": "VFX", "fr": "VFX"},
+    "trad_sfx": {"en": "SFX", "fr": "SFX"},
+    "trad_gfx": {"en": "GFX", "fr": "GFX"},
+    "trad_vis": {"en": "Visuals", "fr": "Visuels"},
+    "trad_tit": {"en": "Title Card", "fr": "Carte de Titres"},
+    "trad_abo": {"en": "About me", "fr": "A Propos"},
+    "expl_vfx": {"en": "Videos Effects", "fr": "Effets Vidéos"},
+    "expl_sfx": {"en": "Sounds Effects", "fr": "Effets Sonores"},
+    "expl_gfx": {"en": "Graphics", "fr": "Graphiques"},
+    "vfx_target": "vfx",
+    "sfx_target": "sfx",
+    "gfx_target": "gfx",
+    "tit_target": "titlecard",
+    "vis_target": "visuals",
+    "abo_target": "about"
+}
