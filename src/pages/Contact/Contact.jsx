@@ -6,7 +6,7 @@ import ZServices from "../../services/services";
 
 export default function Contact() {
     useEffect(() => {
-        const lang = localStorage.getItem(ZServices.LANG.stocker_name);
+        let lang = localStorage.getItem(ZServices.LANG.stocker_name);
         if (!lang) {
             localStorage.setItem(
                 ZServices.LANG.stocker_name,
@@ -28,9 +28,12 @@ export default function Contact() {
 
             <div id="links-container">
                 <div className="links">
-                    <div className="links-img-container" onClick={() => {
-                        ZServices.goTo(data.links.insta)
-                    }}>
+                    <div
+                        className="links-img-container"
+                        onClick={() => {
+                            ZServices.goTo(data.links.insta);
+                        }}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="100"
@@ -49,9 +52,12 @@ export default function Contact() {
                 </div>
 
                 <div className="links">
-                    <div className="links-img-container" onClick={() => {
-                        ZServices.goTo(data.links.twitter)
-                    }}>
+                    <div
+                        className="links-img-container"
+                        onClick={() => {
+                            ZServices.goTo(data.links.twitter);
+                        }}
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="100"
@@ -70,9 +76,12 @@ export default function Contact() {
                 </div>
 
                 <div className="links">
-                    <div className="links-img-container" onClick={() => {
-                        ZServices.goTo(data.links.mail)
-                    }}>
+                    <div
+                        className="links-img-container"
+                        onClick={() => {
+                            ZServices.goTo(data.links.mail);
+                        }}
+                    >
                         <svg
                             style={{ filter: "invert(100%)" }}
                             xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +95,9 @@ export default function Contact() {
                     </div>
 
                     <div className="links-txt-container">
-                        <span className="text-bs links-txt">nyruvizion@gmail.com</span>
+                        <span className="text-bs links-txt">
+                            nyruvizion@gmail.com
+                        </span>
                     </div>
                 </div>
             </div>

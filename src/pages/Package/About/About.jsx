@@ -11,7 +11,7 @@ export default function About() {
     const [language, setLanguage] = useState(ZServices.LANG.fr);
 
     useEffect(() => {
-        const lang = localStorage.getItem(ZServices.LANG.stocker_name);
+        let lang = localStorage.getItem(ZServices.LANG.stocker_name);
         if (!lang) {
             localStorage.setItem(
                 ZServices.LANG.stocker_name,

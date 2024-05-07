@@ -17,10 +17,10 @@ export default class ZServices {
      * @type {LANGData}
      */
     static LANG = {
-        fr: "FR", 
-        en: "EN", 
-        stocker_name: "nyru_lang"
-    }
+        fr: "FR",
+        en: "EN",
+        stocker_name: "nyru_lang",
+    };
 
     /**
      * Get out of caller from an anther URL
@@ -28,21 +28,21 @@ export default class ZServices {
      * @param {boolean | null} refresh Reload component if target is a component.
      * @return {void}
      */
-    static goTo(url, refresh=null) {
-        window.location.href = url
-        if(refresh) window.location.reload()
+    static goTo(url, refresh = null) {
+        window.location.href = url;
+        if (refresh) window.location.reload();
     }
 
     /**
      * Change title of the page
-     * @param {string} title The final title page. 
+     * @param {string} title The final title page.
      * @return {void}
      */
     static changeTitle(title) {
-        document.title = title
+        document.title = title;
     }
 
     static isFrench(selectedLang) {
-        return selectedLang === this.LANG.fr
+        return selectedLang === this.LANG.fr;
     }
-}  
+}
